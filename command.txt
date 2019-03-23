@@ -2,14 +2,22 @@
 
 2> git config --global user.name "Rahul Dubey"
 
-above two cammand to config got and identity which person working on there 
+above two cammand to config got and identifiction which person/ developer working . Here we create 2 flage . first email and second user name 
 
 Learn git part 1 
-1 > git init
-2 > git add [filename] || -A
-3> git status
-4> git commit m "Write message here "
-5> git remote add origin reponame
-6> git push origin master 
-7> git clone reponame
-8 > git pull orign master
+1 > git init   // this command used for Initialized git and make local project as a git project.  we use this command to include git 
+
+2 > git add [filename] || -A  // we used this command to add new files or changes files  in staging Area .
+
+3> git status   // we used this command to chack which files are in staging area or which files are not in staging area
+
+4> git commit m "Write message here " // This command use to create snapshort 
+5> git remote add origin reponame  //this command use link to our github 
+Note : above  all cammand we to use but not add file on githubs  
+6> git push -u origin master // this command use to push file on githubs after that we see fills add on githubs
+
+7 > git checkout --<file name> // this file to update changes files . 
+
+7> git clone reponame  this command use for take all files of repogetry  first time. 
+
+8 > git pull origin master // this command use to downlod all updload and new files that other developer has added 
